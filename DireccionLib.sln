@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DireccionLib", "DireccionLib\DireccionLib.csproj", "{806D3B87-03E5-42D6-9C1B-2711F3C71599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuDireccionGestor", "MenuDireccionGestor\MenuDireccionGestor.csproj", "{DF6C2FB2-8DE9-4EA2-8A6F-42A1CA4EFFBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{806D3B87-03E5-42D6-9C1B-2711F3C71599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806D3B87-03E5-42D6-9C1B-2711F3C71599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806D3B87-03E5-42D6-9C1B-2711F3C71599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806D3B87-03E5-42D6-9C1B-2711F3C71599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF6C2FB2-8DE9-4EA2-8A6F-42A1CA4EFFBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF6C2FB2-8DE9-4EA2-8A6F-42A1CA4EFFBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF6C2FB2-8DE9-4EA2-8A6F-42A1CA4EFFBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF6C2FB2-8DE9-4EA2-8A6F-42A1CA4EFFBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

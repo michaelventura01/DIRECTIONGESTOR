@@ -1,0 +1,8 @@
+C:\Users\MICHAEL\Documents\Visual Studio 2012\Projects\DireccionLibrary\DireccionLib\DireccionLib\obj\Debug\DireccionLib.csprojResolveAssemblyReference.cache
+C:\Users\MICHAEL\Documents\Visual Studio 2012\Projects\DireccionLibrary\DireccionLib\DireccionLib\bin\Debug\DireccionLib.dll
+C:\Users\MICHAEL\Documents\Visual Studio 2012\Projects\DireccionLibrary\DireccionLib\DireccionLib\bin\Debug\DireccionLib.pdb
+C:\Users\MICHAEL\Documents\Visual Studio 2012\Projects\DireccionLibrary\DireccionLib\DireccionLib\obj\Debug\DireccionLib.dll
+C:\Users\MICHAEL\Documents\Visual Studio 2012\Projects\DireccionLibrary\DireccionLib\DireccionLib\obj\Debug\DireccionLib.pdb
+C:\Users\MICHAEL\Documents\Visual Studio 2012\Projects\DireccionLibrary\DireccionLib\DireccionLib\obj\Debug\DireccionLib.csproj.ResolveComReference.cache
+C:\Users\MICHAEL\Documents\Visual Studio 2012\Projects\DireccionLibrary\DireccionLib\DireccionLib\bin\Debug\MySql.Data.dll
+C:\Users\MICHAEL\Documents\Visual Studio 2012\Projects\DireccionLibrary\DireccionLib\DireccionLib\bin\Debug\MySql.Data.xml
