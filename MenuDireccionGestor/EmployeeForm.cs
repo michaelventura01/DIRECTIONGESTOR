@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Media;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace DireccionLib
@@ -392,17 +386,6 @@ namespace DireccionLib
             this.Close();
         }
 
-        private void boolreferencebox_KeyPress(object sender, KeyPressEventArgs e)
-        {
-
-        }
-
-        private void boolreferencebox_KeyPress_1(object sender, KeyPressEventArgs e)
-        {
-
-
-        }
-
         private void birthDateBox_ValueChanged(object sender, EventArgs e)
         {
             try
@@ -624,7 +607,7 @@ namespace DireccionLib
                 if (referenciaopcionbox.Text == "NO")
                 {
                     man.Close();
-                    telephoneNumberBox.Text = "NINGUNA";
+                    telephoneReferenceBox.Text = "NINGUNA";
                     relationReferenceBox.Text = "NINGUNA";
                     personalReferenceBox.Text = "NINGUNA";
 
@@ -645,7 +628,7 @@ namespace DireccionLib
                     string momentdate = birthDateBox.Value.Day.ToString() + "/" + birthDateBox.Value.Month.ToString();
 
                     save.ModifyData(DireccionGestor.getnombrestatic(), trabajando.Text,userDataName,   dategetin, salidapicker, gottendegree.Text, nameEmployeeBox.Text, idBox.Text, birthDateBox, 
-                        telephoneNumberBox.Text, schedule.Text, cargobox.Text , comboNacionalidad.Text,int.Parse(ageBox.Text), mensuality, personalReferenceBox.Text, telephoneNumberBox.Text, 
+                        telephoneNumberBox.Text, schedule.Text, cargobox.Text , comboNacionalidad.Text,int.Parse(ageBox.Text), mensuality, personalReferenceBox.Text, telephoneReferenceBox.Text, 
                         relationReferenceBox.Text, AlergyNmaeBox.Text, DolenciaNameBox.Text, nameMedicineBox.Text, MotivoMedicineBox.Text, picturetextbox.Text, monedatipo.Text,
                         sexobox.Text, direccionbox.Text,emailcombo.Text,EmployeeClass.getids());
                     addevent.modifydata(UserAccessForm.getusername(), DireccionGestor.getnombrestatic(), nameevent, 1, date, "7:20:0", "NO", "NO", "NO", "NO", "NO", "NO", "NO", momentdate, "SI");
@@ -980,5 +963,3 @@ namespace DireccionLib
         }
     }
 }
-  
-
